@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.7.2.0">
+	<info />
+	<map>
+		<room id="1" name="bedroom" subtitle="" x="-32" y="-32" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" isStartRoom="yes" description="Your bedroom looks the same as it was the day before, nothing interesting. The clock says it is 9am.&#xD;&#xA;&#xD;&#xA;To your [north], your personal bathroom. To your [east], the hallway outside your room.&#xD;&#xA;&#xD;&#xA;" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="2" name="bathroom" subtitle="SHOWER" x="-32" y="-128" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Regular old bathroom, with basic amenities, and a shower lined with mold. The window is open, but your pubescent body cannot fit through.&#xD;&#xA;&#xD;&#xA;[STENCH] You can choose to [shower], but no one's telling you to do so.&#xD;&#xA;&#xD;&#xA;To your [south], your bedroom." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="3" name="" description="">
+			<dock index="0" id="1" port="n" />
+			<dock index="1" id="2" port="s" />
+		</line>
+		<room id="4" name="hallway" subtitle="" x="96" y="-32" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Nothing out of the normal here, just a hallway to different rooms.&#xD;&#xA;&#xD;&#xA;To your [north], the guest room that has never been used. To your [east], your sister's room. To your [west], your bedroom. [downstairs], the family living room." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="5" name="" description="">
+			<dock index="0" id="1" port="e" />
+			<dock index="1" id="4" port="w" />
+		</line>
+		<room id="6" name="living room" subtitle="trapdoor LOCKED" x="96" y="128" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Since you got a PC in your room, you've barely spent time here in the living room. Everything feels nostalgic though.&#xD;&#xA;&#xD;&#xA;To your [south], your parents' joint bedroom. To your [west], the kitchen. [upstairs], the hallway.&#xD;&#xA;&#xD;&#xA;[UNLOCKED] [downstairs], the crawlspace under the house that you didn't know had existed.&#xD;&#xA;&#xD;&#xA;You notice something under the rug, you might want to [pull] away the rug.&#xD;&#xA;&#xD;&#xA;[pull rug] Under the rug was a rusty trapdoor with an old-fashioned keyhole.&#xD;&#xA;[NO KEY] You don't have anything like a key to try to open it though.&#xD;&#xA;[OWN KEY] This old-fashioned key you have may fit in it, so [use the key].&#xD;&#xA;&#xD;&#xA;[use the key] The key unlocked the trapdoor. [downstairs], the crawlspace under the house that you didn't know had existed." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="7" name="" description="" startText="up" endText="down">
+			<dock index="0" id="6" port="n" />
+			<dock index="1" id="4" port="s" />
+		</line>
+		<room id="8" name="sister's room" subtitle="KILLED (if you shower)" x="224" y="-32" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="[1:] At a first glance, your sister's room doesn't look all that interesting. However, your sister's room only has one item of interest, YOUR SISTER. &quot;WHO SAID YOU COULD COME INTO MY ROOM! I'M GONNA KILL YOU!&quot;&#xD;&#xA;&#xD;&#xA;[2: SHOWERED] With nothing at your disposal to fend for yourself, you stand there frozen in the middle of the room, and so your sister viciously tears apart your limbs, both legs at once with excruciating pain. &#xD;&#xA;&#xD;&#xA;As you bring your arms to your head, your sister detaches both arms, leaving your head exposed. Bleeding out, you plead to your sister in a last attempt of survival. She reaches out her hand. She moves it closer to your head. &#xD;&#xA;&#xD;&#xA;Then- SPLAT. With her bare hand, your sister crushes your skull.&#xD;&#xA;&#xD;&#xA;(YOU HAVE UNLOCKED THE SISTER ENDING, AKA THE EMBARASSING DEATH ENDING, 1 OF 6 POSSIBLE ENDINGS. WOULD YOU LIKE TO PLAY AGAIN? yes/no)&#xD;&#xA;&#xD;&#xA;[2: STENCH] With nothing at your disposal to fend for yourself, you stand there frozen in the middle of the room. Your sister lets out an ear-piercing scream.&#xD;&#xA;&#xD;&#xA;You know that you are done for, wait, hold on, the scream is no longer a scream. The yell that launched out of your sister's throat malformed into a seemingly endless stream of vomit. Your sister falls to the ground, faceup to the ceiling, and the next thing you hear is violent choking noises. You didn't shower.&#xD;&#xA;&#xD;&#xA;No longer frozen, you walk up to your sister's body and you look down on her. She has died. Better her than you. You begin to [look] around the room.&#xD;&#xA;&#xD;&#xA;[LOOK] Again, there's nothing too interesting in this room, well, nothing but the dead body of your sister. Too heavy to lift anyways.&#xD;&#xA;Hold on, you see your sister's prized possession, her shiny, bright flashlight. Since she's dead, there's no harm in stealing it, so just [take] it.&#xD;&#xA;&#xD;&#xA;To your [west], the hallway." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="#FF8040" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>flashlight</objects>
+		</room>
+		<line id="9" name="" description="">
+			<dock index="0" id="4" port="e" />
+			<dock index="1" id="8" port="w" />
+		</line>
+		<room id="10" name="guest room" subtitle="KILLED (stay too long)" x="96" y="-128" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="The plainest room you've ever encountered, white walls, white bed, white door. Only things of any interest is the wardrobe in the corner (which you can [examine]), and a wide open window you can [climb out] of.&#xD;&#xA;&#xD;&#xA;To your [south], the hallway.&#xD;&#xA;&#xD;&#xA;You still don't understand why this room has never been used. Wait, what's that smell?&#xD;&#xA;&#xD;&#xA;[examine] Empty. Makes a lot of sense. Suddenly, you become dizzy and discombobulated. &quot;Wait, that smell... It's asbestos isn't it?&quot; You drop to the floor, unconscious.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;(YOU HAVE UNLOCKED THE ASBESTOS  ENDING, AKA THE DEATH BY ROOM ENDING, 1 OF 6 POSSIBLE ENDINGS. WOULD YOU LIKE TO PLAY AGAIN? yes/no)" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="#FF8040" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="11" name="" description="">
+			<dock index="0" id="4" port="n" />
+			<dock index="1" id="10" port="s" />
+		</line>
+		<room id="12" name="out the window" subtitle="KILLED" x="96" y="-224" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="As you try to fit your body through the window, you become disorientated, and you foolishly fall down the second storey of your house, headfirst.&#xD;&#xA;&#xD;&#xA;(YOU HAVE UNLOCKED THE FALL ENDING, AKA THE DUMB ESCAPE PLAN ENDING, 1 OF 6 POSSIBLE ENDINGS. WOULD YOU LIKE TO PLAY AGAIN? yes/no)" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="#FF0000" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="13" name="" description="" startText="out" endText="in">
+			<dock index="0" id="10" port="n" />
+			<dock index="1" id="12" port="s" />
+		</line>
+		<room id="14" name="parents' room" subtitle="BLOCKED" x="96" y="224" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="[BLOCKED] You attempt to open the door to your parents' room, but the knob won't turn. Seconds later, your mum peeks out through the door, &quot;Oh, good morning darling, had a good sleep last night?&quot; You gave an ambiguous answer, and asked whether you could go out with friends. &quot;Don't you remember, dear? You were grounded last night for hiding your sister's flashlight!&quot; &#xD;&#xA;&#xD;&#xA;[FLASHLIGHT] As your mum talks, you realise the flashlight she mentioned was in your hands at that very moment. You wonder, what would happen if I [use flashlight on mum]...&#xD;&#xA;&#xD;&#xA;[NO FLASHLIGHT] She doesn't wait for a answer and slams the door on you.&#xD;&#xA;&#xD;&#xA;[use flashlight on mum] You quickly turn on and turn off the flashlight at your poor mother's eyes, effectively blinding her. &quot;AAGGHHHH!&quot; she says as she stumbles and finally falls on to the king-sized bed. You begin to [look] around the room.&#xD;&#xA;&#xD;&#xA;[look] Your blinded mother lays on the bed, as you stand in the middle of the room. You search every drawer and container for the house keys, until you find some sort of key that you can [take].&#xD;&#xA;&#xD;&#xA;To your [north], the living room.&#xD;&#xA;&#xD;&#xA;[take] This... is certainly not the key for the front door, it's way too old-fashioned to fit into the keyhole. Why would your parents even have this key, there's nothing that would need this key in this house." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>old-fashioned key</objects>
+		</room>
+		<line id="15" name="" description="">
+			<dock index="0" id="14" port="n" />
+			<dock index="1" id="6" port="s" />
+		</line>
+		<room id="16" name="kitchen" subtitle="KILLED (if you stink)" x="-32" y="128" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="Various utensils and accessories surround the kitchen. None of them will be of use to you, however.&#xD;&#xA;Your dad sits on the kitchen counter, eating his Saturday morning avocado toast prescribed by his dietician.&#xD;&#xA;&#xD;&#xA;To your [east], the living room. To your [west], the front door.&#xD;&#xA;&#xD;&#xA;[west, NO KEYS] The door's locked.&#xD;&#xA;&#xD;&#xA;[west, KEYS] &quot;Nup, you're not going out, especially after that ruckus with your sister last night.&quot; With your dad being physically much larger than you are, despite your pubescent body, you can't get pass him.&#xD;&#xA;&#xD;&#xA;[FLASHLIGHT, mum blinded] However, with the flashlight in your hand, you wonder if that thing that you did with your mum will work with your dad... [use flashlight on dad]&#xD;&#xA;&#xD;&#xA;[use flashlight on dad, SHOWERED] &quot;OH, YOU BLASTED-&quot; Your dad became disoriented and stumbles to the ground. No one is guarding the door now.&#xD;&#xA;&#xD;&#xA;[use flashlight on dad, STENCH]  &quot;OH, YOU BLASTED-&quot; Your dad starts stumbling, but quickly reorients himself. &quot;Ohohoh, you dare try to defy my authority? You idiot of a son, I can smell you from all the way over here. Your blinded dad begins to charge towards you with full strength. You couldn't dodge quick enough to escape your dad's gigantic frame. He crushes you into the wall with no thought. &#xD;&#xA;&#xD;&#xA;(YOU HAVE UNLOCKED THE DAD ENDING, AKA THE TERRIFYING RAMMED ENDING, WOULD YOU LIKE TO PLAY AGAIN? yes/no)" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="#FF8040" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="17" name="front door" subtitle="LOCKED" x="-160" y="128" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" isEndRoom="yes" description="You did it, you finally made it out of the house, now you can meetup with your friends. Hopefully your sister didn't mind getting killed.&#xD;&#xA;&#xD;&#xA;[GOOD ENDING, you didn't pick up the skull] &#xD;&#xA;As you walk towards the bus stop, you update your friends on your status and tell them you're on your way.&#xD;&#xA;&#xD;&#xA;(YOU HAVE UNLOCKED THE GOOD ENDING, AKA THE BORING ESCAPED ENDING, 1 OF 6 POSSIBLE ENDINGS. WOULD YOU LIKE TO PLAY AGAIN? yes/no)&#xD;&#xA;&#xD;&#xA;[TRUE ENDING, you picked up the skull] Hold on, something's wrong. You look up at the sky and see that it had turned purple. Checking your phone, your friends send you images and videos of strange occurences that had happened around them, such as neighbours getting picked up by giant winged creatures and a strange pink beast vomiting out fire. &#xD;&#xA;&#xD;&#xA;All of a sudden, a hole is punched into an imaginary wall in front of you, on the other side is a slender, dark figure in a space filled with white light. A voice from this hole booms at you, &quot;YOU THERE. YOU DID THIS. YOU FAILED TO GUARD THE JERRICRANIUM.&quot; &#xD;&#xA;&#xD;&#xA;You cannot believe it. The world may possibly be ending, and it may be your fault.&#xD;&#xA;&#xD;&#xA;&quot;NOW WE SHALL REQUIRE A HUMAN BODY TO REPLACE IT. YOU WILL DO.&quot;&#xD;&#xA;&#xD;&#xA;(YOU HAVE UNLOCKED THE TRUE ENDING, AKA THE HELL ON EARTH ENDING, 1 OF 7 POSSIBLE ENDINGS. WOULD YOU LIKE TO PLAY AGAIN? yes/no)&#xD;&#xA;&#xD;&#xA;[TRUE TRUE ENDING, you pick up the skull and drag your sister's body (after picking up skull, you can lift your sister's body)] You cannot believe it. The world may possibly be ending, and it may be your fault.&#xD;&#xA;&#xD;&#xA;&quot;NOW WE SHALL REQUIRE A HUMAN BODY TO REPLACE IT. YOU WILL DO.&quot;&#xD;&#xA;&#xD;&#xA;&quot;Wait,&quot; you blurted out, &quot;take my sister instead!&quot; You present your dead sister's corpse to the shadowy figure.&#xD;&#xA;&#xD;&#xA;&quot;SO BE IT.&quot; The world warped and disfigured itself, until it started to become an unrecognisable, unintelligable mess. That is before-&#xD;&#xA;&#xD;&#xA;You wake up in your room, and according to your clock, it is 9:10 on a Saturday morning.&#xD;&#xA;You get a text on your phone from your friends, inviting you to go out.&#xD;&#xA;Might as well, it's nice outside.&#xD;&#xA;&#xD;&#xA;(YOU HAVE UNLOCKED THE *TRUE* TRUE ENDING, AKA THE SISTER SACRIFICED ENDING, THE SECRET 7TH ENDING. WOULD YOU LIKE TO PLAY AGAIN? yes/no)&#xD;&#xA;" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="18" name="crawlspace" subtitle="" x="256" y="320" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" isDark="yes" description="[DARK] You cannot see anything. You should [use flashlight].&#xD;&#xA;&#xD;&#xA;[use flashlight] You can now see some things. In this very tight crawlspace, you can see a passage to your [south] faintly glowing purple, as well as something shiny on the ground. &#xD;&#xA;&#xD;&#xA;You should probably [take] the shiny object, but the purple glow allures you, maybe you should check that first.&#xD;&#xA;&#xD;&#xA;To your [south], a room. [upstairs], the living room.&#xD;&#xA;&#xD;&#xA;[take] This shiny object is indeed, the house keys, which you have been looking for this entire time. " roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>house keys</objects>
+		</room>
+		<line id="19" name="" description="">
+			<dock index="0" id="6" port="w" />
+			<dock index="1" id="6" port="w" />
+		</line>
+		<line id="20" name="" description="">
+			<dock index="0" id="16" port="w" />
+			<dock index="1" id="17" port="e" />
+		</line>
+		<line id="21" name="" description="" startText="down" endText="up">
+			<dock index="0" id="6" port="e" />
+			<dock index="1" id="18" port="w" />
+		</line>
+		<room id="22" name="skull room" subtitle="" x="256" y="416" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" isDark="yes" description="As you emerge towards the room, you begin to wonder why your parents kept this crawlspace from you, and how you just found out about it now. &#xD;&#xA;&#xD;&#xA;You finally reach the room. In front of you, you see a large, stone, cylindrical pedestal, clearly too ancient to have been part of the house. Atop the pedestal, you see the source of the purple glow that had been drawing you in, a strange skull with its eyes replaced with that purple glow. &#xD;&#xA;You feel compelled to [take] it, but you also feel as if something's wrong.&#xD;&#xA;&#xD;&#xA;To your [north], the entrance of the crawlspace&#xD;&#xA;&#xD;&#xA;[take] As you lift the strange skull up from the stone pedestal, suspicious and bizarre sounds flare from outside the house. Probably nothing." roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects>strange skull w/ PURPLE GLOW</objects>
+		</room>
+		<line id="23" name="" description="">
+			<dock index="0" id="22" port="n" />
+			<dock index="1" id="18" port="s" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<border>MidnightBlue</border>
+			<line>MidnightBlue</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<subTitle>MidnightBlue</subTitle>
+			<smallText>MidnightBlue</smallText>
+			<lineText>MidnightBlue</lineText>
+			<grid>#F5F5F5</grid>
+			<startRoom>GreenYellow</startRoom>
+			<endRoom>Red</endRoom>
+		</colors>
+		<regions>
+			<NoRegion Name="NoRegion" TextColor="Blue">White</NoRegion>
+		</regions>
+		<fonts>
+			<room size="13">Arial</room>
+			<object size="11">Arial</object>
+			<subTitle size="9">Arial</subTitle>
+			<line size="9">Arial</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>2</width>
+			<arrowSize>12</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+			<defaultRoomShape>0</defaultRoomShape>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<margins>
+			<documentSpecific>no</documentSpecific>
+			<horizontal>0</horizontal>
+			<vertical>0</vertical>
+			<wrapDashes>no</wrapDashes>
+		</margins>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>
